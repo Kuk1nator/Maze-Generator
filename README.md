@@ -77,30 +77,4 @@ The program takes the dimensions of a maze (rows and columns) as input and gener
 
 5.  **Input:** The program will prompt you to enter the number of rows and columns for the maze. You can either enter the values or press Enter to use the default values (10 rows and 10 columns).
 
-### Development Journey: From Simple to Solvable
-
-Initially, the maze generation algorithm had some issues, leading to very simple mazes or, even worse, unsolvable ones. The screenshots below illustrate this:
-
-#### Initial Unsolvable Maze
-
-![Initial Unsolvable Maze](image1.png)
-
-As you can see, the generated maze was essentially a straight line of walls, preventing any path from the start to the end.
-
-#### Another Early Issue: Trivial Mazes
-
-![Another Early Issue: Trivial Mazes](image2.png)
-
-In some cases, the generated mazes were very simple and didn't really qualify as mazes!
-
-#### Resolving the Issue: A Working Maze!
-
-After debugging and refining the recursive backtracking algorithm, the maze generation now produces complex and solvable mazes:
-
-![Working Maze with Solution](image3.png)
-![Another Working Maze with Solution](image4.png)
-![Another Working Maze with Solution zoomed](image5.png)
-
-The program now correctly identifies and displays the solution path, demonstrating the successful implementation of both the maze generation and solving algorithms.
-
 ### Example Output
